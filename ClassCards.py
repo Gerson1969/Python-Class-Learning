@@ -73,4 +73,4 @@ if __name__ == "__main__":
  # Este código define as classes Card, Deck e Game para simular um jogo de cartas. O usuário pode especificar o número de jogadores, o número de baralhos e quantas cartas cada jogador deve receber. O programa então embaralha o baralho, distribui as cartas e exibe os resultados.
 
  # preciso incluir nesse projeto a opção de ter ou não coringas no baralho. Se o usuário escolher incluir coringas, cada baralho deve conter 2 coringas (um vermelho e um preto). O programa deve ajustar a distribuição de cartas e a contagem de cartas restantes no baralho de acordo com a inclusão dos coringas.
-#fim 
+#fim  
