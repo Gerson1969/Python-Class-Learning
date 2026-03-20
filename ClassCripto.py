@@ -23,3 +23,4 @@ frase = input("Digite a frase a ser criptografada: ")
 frase_criptografada = criptografar(frase, deslocamento)
 print("Frase criptografada:", frase_criptografada)
 
+#fim do código
