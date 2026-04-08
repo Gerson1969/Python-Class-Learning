@@ -1,0 +1,171 @@
+# =========================
+# Ambientes virtuais
+# =========================
+venv/
+.venv/
+env/
+.env/
+ENV/
+virtualenv/
+
+# Ignorar venvs em qualquer subpasta
+**/venv/
+**/.venv/
+**/env/
+**/.env/
+**/ENV/
+**/virtualenv/
+
+# =========================
+# Cache / compilados Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensões compiladas
+*.so
+
+# Distribuição / empacotamento
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# Instaladores / logs
+# =========================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# Testes / cobertura
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+hypothesis/
+
+# =========================
+# Type check / lint / análise
+# =========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Ambientes de IDE / editor
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+
+# =========================
+# Arquivos de sistema
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# PyInstaller
+# =========================
+*.manifest
+*.spec
+
+# =========================
+# Arquivos de configuração local
+# =========================
+.python-version
+
+# dotenv
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Banco local / sqlite
+# =========================
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+# =========================
+# Logs e temporários
+# =========================
+*.log
+logs/
+tmp/
+temp/
+
+# =========================
+# Documentação / mkdocs / sphinx
+# =========================
+site/
+docs/_build/
+
+# =========================
+# Arquivos gerados por ferramentas
+# =========================
+profile_default/
+ipython_config.py
+
+# =========================
+# Poetry / Pipenv
+# =========================
+poetry.lock
+Pipfile.lock
+
+# Remova as linhas acima se quiser versionar lock files
+# Em projetos de estudo pessoal, muita gente prefere ignorar.
+
+# =========================
+# Dados locais / segredos
+# =========================
+secrets.json
+*.pem
+*.key
+
+# =========================
+# Arquivos de saída comuns em estudos
+# =========================
+output/
+outputs/
+result/
+results/
